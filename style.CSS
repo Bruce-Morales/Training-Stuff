@@ -1,0 +1,27 @@
+    <style>
+        body {
+            background-color: #B0E0E6;
+        }
+        main {
+            text-align: center;
+        }
+        div {
+            width: 600px;
+            margin: auto;
+            background-color: #CCCCCC;
+        }
+        img {
+            display: block;
+            margin: auto;
+            width: 300px;
+            height: 500px;
+        }
+        p {
+            font-size: 150%;
+            text-align: center;
+            margin-top: 1px;
+        }
+        h1 {
+            text-align: center;
+        }
+    </style>
