@@ -1,5 +1,4 @@
-<script>
-        document.addEventListener("DOMContentLoaded", function() {
+ document.addEventListener("DOMContentLoaded", function() {
             var image = document.getElementById("interactive-image");
             var images = [
                 "https://media.discordapp.net/attachments/1065413758475833344/1179904442028523562/IMG_7528.jpg?ex=657b7aa4&is=656905a4&hm=221c712188856397a2383033baa44b46f8da0437c7f6d13358d8e76152caa5a4&=&format=webp&width=495&height=660",
@@ -30,4 +29,3 @@
                 changeImage(1);
             });
         });
-    </script>
