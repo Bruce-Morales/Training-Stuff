@@ -1,9 +1,9 @@
  document.addEventListener("DOMContentLoaded", function() {
             var image = document.getElementById("interactive-image");
             var images = [
-                "images/Dog 1",
-                "images/Dog 2",
-                "images/Dog 3"
+                "images/Dog 1.jpg",
+                "images/Dog 2".jpg,
+                "images/Dog 3.jpg"
             ];
             var currentIndex = 0;
 
