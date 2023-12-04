@@ -1,7 +1,7 @@
  document.addEventListener("DOMContentLoaded", function() {
             var image = document.getElementById("interactive-image");
             var images = [
-                "https://media.discordapp.net/attachments/1065413758475833344/1179904442028523562/IMG_7528.jpg?ex=657b7aa4&is=656905a4&hm=221c712188856397a2383033baa44b46f8da0437c7f6d13358d8e76152caa5a4&=&format=webp&width=495&height=660",
+                "images/Dog 1",
                 "https://media.discordapp.net/attachments/1065413758475833344/1180269698684829726/IMG_8737.jpg?ex=657cced0&is=656a59d0&hm=4e0fe2b16b65c420610bf3258470c0b55b120c0e99494d63ac76d197d5f17c66&=&format=webp&width=647&height=660",
                 "https://cdn.discordapp.com/attachments/1065413758475833344/1180269798999994388/IMG_8786.jpg?ex=657ccee8&is=656a59e8&hm=1064917edcd8fc1bebcea8c81fc42365d386d1258ef448146a3e6aab4cc8edd2&"
             ];
