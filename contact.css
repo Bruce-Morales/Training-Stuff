@@ -20,8 +20,12 @@ body {
     background-color: #B0E0E6;}
     
     .box {
-        width: 45%; /* Adjust the width as needed */
-        margin: 10px;
+        background-color: aqua;
+        width: 30%; /* Adjust the width as needed */
+        margin-left: 130px;
+        margin-right: 100px;
+        margin-top: 10px;
+        margin-bottom: 40px;
         padding: 20px;
         border: 1px solid #ccc;
         float: left;
