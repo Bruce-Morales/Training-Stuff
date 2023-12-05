@@ -18,3 +18,23 @@ nav a:hover {
 }
 body {
     background-color: #B0E0E6;}
+    
+    .box {
+        width: 45%; /* Adjust the width as needed */
+        margin: 10px;
+        padding: 20px;
+        border: 1px solid #ccc;
+        float: left;
+    }
+
+h2 {
+    text-align: center;
+}
+p{ 
+    text-align: center;
+}
+img {
+    display: block;
+    margin: auto;
+    width: 300px;
+    height: 400px;}
