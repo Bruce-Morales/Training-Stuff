@@ -1,14 +1,17 @@
+
 body {
     background-color: #B0E0E6;
     margin: 0; /* Remove default body margin */
     display: flex;
             min-height: 100vh;
             flex-direction: column;
+    padding: 0%;
 }
 
 nav {
     background-color: #333;
     overflow: hidden;
+    padding: none;
 }
 
 nav a {
@@ -16,7 +19,7 @@ nav a {
     display: block;
     color: white;
     text-align: center;
-    padding: 14px 16px;
+    padding: none;
     text-decoration: none;
 }
 
@@ -43,7 +46,10 @@ main {
         border: 1px solid #ccc;
         float: left;
     }
-
+h1{
+    margin-top: none !important;
+    padding: 0%;
+}
 h2 {
     text-align: center;
     text-decoration: underline;
@@ -58,11 +64,10 @@ img {
     height: 400px;}
 main {
         background-color: #B0E0E6;
+        margin-top: 0px;
+        padding: none;
     }
 
-body {
-        background-color: #B0E0E6;
-    }
 head{
         background-color: #B0E0E6;
     }
@@ -78,10 +83,11 @@ head{
         }
 
 .navbar {
-    margin-bottom: 0;
+    background-color: #333;
+    margin-bottom: 0 !important;
     padding-bottom: 0;
         }
-
-.navbar-nav {
-            margin: 0 !important;
-        }
+.container{
+    padding: none;
+    height: 100%;
+}
