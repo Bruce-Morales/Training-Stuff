@@ -41,3 +41,10 @@
             background-color: #ddd;
             color: black;
         }
+        .box {
+            background-color: rgb(246, 168, 66);
+            margin: auto;
+            width: 90%; /* Adjust the width as needed */
+            padding: 20px;
+            border: 10px solid #ccc;
+        }
