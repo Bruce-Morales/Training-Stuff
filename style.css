@@ -1,6 +1,12 @@
-        body {
-            background-color: #B0E0E6;
-        }
+
+            body {
+                background-color: #B0E0E6;
+                margin: 0; /* Remove default body margin */
+                display: flex;
+                        min-height: 100vh;
+                        flex-direction: column;
+                padding: 0%;
+            }
         main {
             text-align: center;
         }
