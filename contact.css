@@ -64,3 +64,10 @@ img {
     .br-container {
         background-color: #B0E0E6;
         line-height: 0.5;}
+
+        .bottom-bar{
+            background-color: antiquewhite;
+            margin-top: auto;
+            margin-bottom: 0px;
+            width: 100%;
+        }

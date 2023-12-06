@@ -54,3 +54,9 @@
             padding: 2%;
             border: 5px;
         }
+        .bottom-bar{
+            background-color: antiquewhite;
+            margin-top: auto;
+            margin-bottom: 0px;
+            width: 100%;
+        }
