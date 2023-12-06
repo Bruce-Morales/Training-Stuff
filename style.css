@@ -48,3 +48,9 @@
             padding: 20px;
             border: 10px solid #ccc;
         }
+        .video {
+            width:70%;
+            background-color: #333;
+            padding: 5%;
+            border: 10px;
+        }
