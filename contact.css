@@ -1,6 +1,9 @@
 body {
     background-color: #B0E0E6;
     margin: 0; /* Remove default body margin */
+    display: flex;
+            min-height: 100vh;
+            flex-direction: column;
 }
 
 nav {
@@ -25,10 +28,11 @@ nav a:hover {
 main {
     background-color: #B0E0E6;
     padding: 20px; /* Adjust the padding as needed */
+    flex: 1;
 }
 
     
-    .box {
+.box {
         background-color: aqua;
         width: 30%; /* Adjust the width as needed */
         margin-left: 130px;
@@ -52,22 +56,32 @@ img {
     margin: auto;
     width: 300px;
     height: 400px;}
-    main {
+main {
         background-color: #B0E0E6;
     }
-    body {
+
+body {
         background-color: #B0E0E6;
     }
-    head{
+head{
         background-color: #B0E0E6;
     }
-    .br-container {
+.br-container {
         background-color: #B0E0E6;
         line-height: 0.5;}
 
-        .bottom-bar{
+.bottom-bar{
             background-color: antiquewhite;
             margin-top: auto;
             margin-bottom: 0px;
             width: 100%;
+        }
+
+.navbar {
+    margin-bottom: 0;
+    padding-bottom: 0;
+        }
+
+.navbar-nav {
+            margin: 0 !important;
         }
