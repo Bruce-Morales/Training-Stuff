@@ -1,5 +1,5 @@
 
-/* NOT IN USE, FORMKEEP CODE */
+/* NOT IN USE, FORMKEEP CODE 
 const formkeepEmbed = document.querySelector('#formkeep-embed')
 
 formkeepEmbed.addEventListener('formkeep-embed:submitting', _event => {
@@ -9,3 +9,4 @@ formkeepEmbed.addEventListener('formkeep-embed:submitting', _event => {
 formkeepEmbed.addEventListener('formkeep-embed:submitted', _event => {
   console.log('Submitted form...')
 })
+*/
