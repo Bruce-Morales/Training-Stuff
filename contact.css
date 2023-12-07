@@ -91,4 +91,5 @@ head{
 .container{
     padding: none;
     height: 100%;
+    min-width: 300px;
 }
