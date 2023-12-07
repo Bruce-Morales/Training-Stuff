@@ -1,5 +1,4 @@
-
-            body {
+body {
                 background-color: #B0E0E6;
                 margin: 0; /* Remove default body margin */
                 display: flex;
@@ -7,66 +6,67 @@
                         flex-direction: column;
                 padding: 0%;
             }
-        main {
+main {
             text-align: center;
         }
-        div {
+div {
             max-width: 600px;
             margin: auto;
         
         }
-        img {
+img {
             display: block;
             margin: auto;
             width: 300px;
             height: 500px;
         }
-        p {
+p {
             font-size: 150%;
             text-align: center;
             margin-top: 1px;
         }
-        h1 {
+h1 {
             text-align: center;
         }
-        nav {
+nav {
             background-color: #333;
             overflow: hidden;
+            text-align: left;
         }
 
-        nav a {
+nav a {
             float: left;
             display: block;
             color: white;
-            text-align: center;
+            text-align: left;
             padding: 14px 16px;
             text-decoration: none;
         }
 
-        nav a:hover {
+nav a:hover {
             background-color: #ddd;
             color: black;
         }
-        .box {
+.box {
             background-color: rgb(246, 168, 66);
             margin: auto;
             width: 90%; /* Adjust the width as needed */
             padding: 20px;
             border: 10px solid #ccc;
         }
-        .video {
+.video {
             width:70%;
             background-color: #333;
             padding: 2%;
             border: 5px;
         }
-        .bottom-bar{
+.bottom-bar{
             background-color: antiquewhite;
             margin-top: auto;
             margin-bottom: 0px;
             width: 100%;
         }
-        .homebox{
+.homebox{
             background-color: #ccc;
             min-width: auto;
         }
