@@ -29,3 +29,44 @@
                 changeImage(1);
             });
         });
+
+
+/* Parse/JSON/API code for dog facts below */
+
+    // URL of the API endpoint
+    const apiUrl = 'https://dogapi.dog/api/v2/facts?limit=1';
+
+    // Reference to the div element
+    const factContainer = document.getElementById('factContainer');
+
+    // Make a GET request to the API
+    fetch(apiUrl)
+      .then(response => {
+        // Check if the response is successful (status code 200-299)
+        if (!response.ok) {
+          throw new Error(`HTTP error! Status: ${response.status}`);
+        }
+
+        // Parse the JSON in the response
+        return response.json();
+      })
+      .then(data => {
+        // Check if 'data' has the expected structure
+        if (data && Array.isArray(data.data) && data.data.length > 0) {
+          // Access the first fact in the array
+          const firstFact = data.data[0];
+
+          // Access the 'body' attribute
+          const factBody = firstFact.attributes.body;
+
+          // Display the factBody in the div
+          factContainer.textContent = 'Dog Fact: ' + factBody;
+        } else {
+          // Display an error message if the data structure is invalid
+          factContainer.textContent = 'Invalid data structure in the API response';
+        }
+      })
+      .catch(error => {
+        // Display an error message if there's an issue fetching data
+        factContainer.textContent = 'Error fetching data: ' + error.message;
+      });
