@@ -1,6 +1,9 @@
+
+/* TAKEN OUT OF COMMISSION
+
 body {
                 background-color: #B0E0E6;
-                margin: 0; /* Remove default body margin */
+                margin: 0; 
                 display: flex;
                         min-height: 100vh;
                         flex-direction: column;
@@ -50,7 +53,7 @@ nav a:hover {
 .box {
             background-color: rgb(246, 168, 66);
             margin: auto;
-            width: 90%; /* Adjust the width as needed */
+            width: 90%; 
             padding: 20px;
             border: 10px solid #ccc;
         }
@@ -70,3 +73,5 @@ nav a:hover {
             background-color: #ccc;
             min-width: auto;
         }
+
+        */

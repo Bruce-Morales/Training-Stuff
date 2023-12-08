@@ -3,10 +3,10 @@
 <head>
      
      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="style.css">
+    
     
 </head>
-<body>
+<body class="bg-primary-subtle">
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container">
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -25,41 +25,44 @@
             </div>
         </div>
     </nav>
-    <main>
+    <main class="container">
 
     <div id="factContainer" class="container-xxl bg-info-subtle"></div>
    
 
 
-        <div class="homebox">
-        <div class="box">
-            <h1 title="AKA our dogs">The Trouble Twins</h1>
+        <div class="container col-lg-8 bg-dark-subtle text-center">
+        <div class="container bg-warning text-center">
+            <h1 title="AKA our dogs"><u>The Trouble Twins</u></h1>
         </div>
             <p> Maximus and Augustus are two brothers of the yorkie terrier species. Their predecessor in our house, Blaze, was also a yorkie terrier, but he was a lot smaller than these two are.</p>
-            <img id="interactive-image" title="when not causing trouble, they like to dogpile in blankets - this is an old image, but it's still them." 
+            <div class="container-fluid col-lg-6"><img class="container-fluid" id="interactive-image" title="when not causing trouble, they like to dogpile in blankets - this is an old image, but it's still them." 
                  src="images/Dog 1.jpg" 
                  alt="There's supposed to be an image here :/">
-    <br>
+    </div>
+                 <br>
+    <div class="container text-center">
             <button class="btn btn-light btn-lg" onclick="changeImage(-1)">Previous</button>
             <button class="btn btn-light btn-lg" onclick="changeImage(1)">Next</button>
             <br>
             <br>
             <br>
         </div>
+        </div>
         <br>
-<div class="video">
+<div class="border-dark-subtle text-center">
         <div class="ratio ratio-16x9">
             <iframe src="https://www.youtube.com/embed/dL332ATZg5g" title="Yorkshire Terrier: The Pros &amp; Cons of Owning One" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
           </div>
 </div>
     </main>
 
-    <div class="bottom-bar">
+    <div class="bg-secondary-subtle mt-4">
         <br>
-        *Note: Website is for training purposes only.
+          *Note: Website is for training purposes only.
         <br>
         <br>
-    </div>
+        </div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 </body>
